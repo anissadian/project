@@ -1,0 +1,22 @@
+importScripts("https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js");
+importScripts("https://www.gstatic.com/firebasejs/7.16.0/firebase-messaging.js");
+
+
+// var id = "<?php echo $this->session->userdata('user_id')?>";
+var firebaseConfig = {
+    apiKey: "AIzaSyCrjRRI5C1ZbCfY4E9lBfT41zhMgLsWwuA",
+    authDomain: "project-1234554321.firebaseapp.com",
+    databaseURL: "https://project-1234554321.firebaseio.com",
+    projectId: "project-1234554321",
+    storageBucket: "project-1234554321.appspot.com",
+    messagingSenderId: "637967445990",
+    appId: "1:637967445990:web:172766165590478fc2f027",
+    measurementId: "G-L5WN0EPW1X"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  const messaging = firebase.messaging();
+  
+  
+  
